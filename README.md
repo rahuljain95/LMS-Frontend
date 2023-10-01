@@ -6,28 +6,24 @@
 
 ```
 git clone https://github.com/rahuljain95/LMS-Frontend.git
-
 ```
 
 2. Move into the directory
 
 ```
 cd lms-frontend-hn
-
 ```
 
 3. install dependencies
 
 ```
 npm i
-
 ```
 
 4. run the server
 
 ```
 npm run dev
-
 ```
 
 ### Setup instructions for tailwind
@@ -58,4 +54,11 @@ npx tailwindcss init
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+### Adding plugins and dependencies
+
+```
+ npm install @reduxjs/toolkit react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+
 ```
