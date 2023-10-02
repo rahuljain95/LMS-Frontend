@@ -33,7 +33,7 @@ npm run dev
 1. Install tailwindcss
 
 ```
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autofixer
 ```
 
 2. Create tailwind config file
@@ -45,7 +45,7 @@ npx tailwindcss init
 3. Add file extensions to tailwind config file in the contents property
 
 ```
-"./src/**/*.{html,js,jsx,ts,tsx}"
+"./src/**/*.{html,js,jsx,ts,tsx}", ./index.html"
 ```
 
 4. Add the tailwind directives at the top of the `index.css` file
@@ -59,7 +59,7 @@ npx tailwindcss init
 ### Adding plugins and dependencies
 
 ```
- npm install @reduxjs/toolkit react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+ npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
 ```
 
 ### configure auto import sort eslint
